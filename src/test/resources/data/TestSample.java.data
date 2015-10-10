@@ -1,0 +1,6 @@
+package android.mobile.com.customlintdemoapp;
+import android.app.Activity;
+
+public class BaseActivity extends Activity{}
+public class IncorrectSample extends Activity{}
+public class Ignored{}

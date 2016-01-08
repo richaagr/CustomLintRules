@@ -3,6 +3,5 @@
 /out/*
 .gradle/*
 build
-artifacts
 .DS_Store
 local.properties

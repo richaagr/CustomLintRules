@@ -23,7 +23,7 @@ task cleanArtifacts << {
 clean.dependsOn cleanArtifacts
 
 jar {
-    baseName = 'customLint'
+    baseName = 'lintRulesLibrary'
     destinationDir = file('artifacts')
     manifest {
         attributes("Lint-Registry": "com.mobile.android.MainIssueRegistry")

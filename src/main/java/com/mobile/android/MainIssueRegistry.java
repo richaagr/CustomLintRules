@@ -4,7 +4,6 @@ import com.android.tools.lint.client.api.IssueRegistry;
 import com.android.tools.lint.detector.api.Issue;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class MainIssueRegistry extends IssueRegistry {
@@ -14,6 +13,7 @@ public class MainIssueRegistry extends IssueRegistry {
     return new ArrayList<Issue>(){{
       add(ActivityIsBaseActivity.ISSUE);
       add(HardcodedColorDetector.HARDCODED_COLOR_DETECTOR);
+      add(ColorHardcodingInLayoutDetector.HARDCODED_COLOR_IN_LAYOUT_ISSUE);
     }};
   }
 }

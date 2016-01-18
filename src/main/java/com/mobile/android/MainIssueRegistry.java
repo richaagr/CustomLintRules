@@ -11,9 +11,9 @@ public class MainIssueRegistry extends IssueRegistry {
   public List<Issue> getIssues() {
 
     return new ArrayList<Issue>(){{
-      add(ActivityIsBaseActivity.ISSUE);
       add(HardcodedColorDetector.HARDCODED_COLOR_DETECTOR);
       add(ColorHardcodingInLayoutDetector.HARDCODED_COLOR_IN_LAYOUT_ISSUE);
+      add(ColorHardcodingInDrawableDetector.HARDCODED_COLOR_IN_DRAWABLE_ISSUE);
     }};
   }
 }
